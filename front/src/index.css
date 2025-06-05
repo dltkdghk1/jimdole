@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'G마켓 산스 TTF Medium'; /* 사용할 폰트 이름 */
+  src: url('./fonts/GmarketSansTTFMedium.ttf') format('truetype'); /* 폰트 파일 경로 */
+}
+
+body, button, input, h1, h2, h3, h4, h5, p, span, div {
+  font-family: 'G마켓 산스 TTF Medium', sans-serif; /* 기본 글씨체 설정 */
+}

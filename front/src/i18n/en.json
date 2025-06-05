@@ -1,0 +1,33 @@
+{
+    "home": {
+    "home":"HOME",
+    "welcome": "Touch the screen and enter the reservation number.",
+    "description": "We will move your luggage to the gate corresponding to your reservation number."
+    },
+    "reservationInput": {
+      "title": "Reservation Number",
+      "cancel": "Cancel",
+      "confirm": "OK",
+      "delete": "Delete",
+      "deleteAll": "Delete all",
+      "notFound": "This number does not exist.",
+      "invalidLength": "Invalid Length. Please say 3 letters followed by 3 numbers.",
+      "error": "Start Error.",
+      "serverError": "Server Error."
+    },
+    "moveToGate": {
+      "moving": "Moving to {{destination}} . . .",
+      "emergencyStop": "Emergency Stop",
+      "restart": "Resume Moving",
+      "autoRestart":"Emergency stop.\nTo start moving, press the Resume Moving button.",
+      "homeRedirect":"After the luggage is transported, it will be returned to the home screen."
+    },
+    "reservationVoice": {
+    "confirm": "Reservation number {{reservation_code}} confirmed. Moving to {{destination}}",
+    "Invalid": "Invalid Number."
+    },
+    "gateVoice": {
+    "confirm": "Moving to {{destination}}"
+    }
+  }
+  

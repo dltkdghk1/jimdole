@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:local}  # 환경변수 우선, 없으면 local
+
+  application:
+    name: carrybot
+
+mqtt:
+  broker: ${MQTT_BROKER}
+  username: ${MQTT_USERNAME}
+  password: ${MQTT_PASSWORD}
+  'client-id': ${MQTT_CLIENT_ID}
+  topic: ${MQTT_TOPIC}
+
+
+perplexity:
+  api:
+    url: ${PERPLEXITY_API_URL}
+    key: ${PERPLEXITY_API_KEY}
+
+logging:
+  level:
+    root: info
+
